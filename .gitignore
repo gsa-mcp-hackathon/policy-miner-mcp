@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+
+# Build output
+build/
+dist/
+*.js
+*.js.map
+*.d.ts
+
+# Keep source
+!src/**/*.ts
+
+# Data directories
+data/
+pdfs/
+
+# Logs
+*.log
+npm-debug.log*
+debug.log
+
+# Environment
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Test
+coverage/
+.nyc_output/
